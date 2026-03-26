@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Writing Prompts</title>
+  <title>Fiction Prompts</title>
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"/>
   <style>
     :root {
@@ -21,7 +21,7 @@
       color: #222;
     }
 
-    /* NAV */
+   
     nav {
       background: var(--navy);
       padding: .9rem 2rem;
@@ -43,7 +43,7 @@
     }
     .nav-links a:hover { color: var(--yellow); border-bottom-color: var(--yellow); }
 
-    /* SHARED */
+    
     .container { max-width: 760px; margin: 0 auto; padding: 2.5rem 1.5rem; }
 
     h2 {
@@ -72,7 +72,7 @@
 
     hr { border: none; border-top: 1px solid #d0d4e8; margin: 2.5rem 0; }
 
-    /* ── BANNER ── */
+   
     .banner {
       background: var(--navy);
       padding: 2.5rem 1.5rem;
@@ -86,10 +86,10 @@
     }
     .banner p { color: #dde; font-size: .95rem; }
 
-    /* ── SECTION: ABOUT ── */
+    
     .intro { line-height: 1.75; font-size: .95rem; color: #444; margin-bottom: 2.5rem; }
 
-    /* ── SECTION: WRITING AREA ── */
+    
     .writing-header {
       background: var(--navy); color: #fff;
       padding: 1rem 1.25rem;
@@ -114,7 +114,7 @@
     }
     textarea::placeholder { color: #aaa; font-style: italic; }
 
-    /* ── FOOTER ── */
+    
     footer {
       background: var(--navy); color: rgba(255,255,255,.45);
       text-align: center; padding: 1rem; font-size: .78rem; margin-top: 4rem;
@@ -130,58 +130,61 @@
       <img src="images/Prompts.png" alt="Dino with the word 'Writing Prompts' above it">
     </span>
     <ul class="nav-links">
-      <li><a href="#about">Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li><a href="fiction.html">Fiction</a></li>
       <li><a href="nonfiction.html">Non-Fiction</a></li>
     </ul>
   </nav>
 
   <div class="banner">
-    <h1>Writing Prompts</h1>
+    <h1>Fiction Prompts</h1>
     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
   </div>
 </header>
 
 <div class="container">
-
-  <!-- ABOUT -->
-  <section id="about">
-    <h2>What is this site?</h2>
+  <section id="nonfiction-prompts">
+    <h2>Fiction Prompt Ideas</h2>
     <p class="intro">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda aut in, voluptatem id nulla expedita culpa aperiam nam nostrum dicta esse officia fuga minus repellat fugiat totam magni? Ut, pariatur?
+      Choose one of the prompts below and begin writing in the writing space. These prompts are meant to help you create, explain, and tell fictional stories.
     </p>
-  </section>
 
-  <hr>
-  <!-- PROMPTS -->
-   <section id="prompt links">
-    <h2>Fiction & Non-Fiction Prompts</h2>
-    <p style="font-size:.9rem;color:#555;margin-bottom:1.25rem;">Click below to see our catalog of Prompts!</p>
-    <div class="btn-row">
-      <a href="fiction.html" class="btn">Fiction Prompts</a>
+    <div style="display: grid; gap: 1rem; margin-bottom: 2.5rem;">
+      <div style="border: 2px solid var(--navy); border-radius: 6px; background: #fff; padding: 1rem 1.25rem;">
+        <h3 style="font-family: 'Merriweather', serif; color: var(--navy); margin-bottom: .5rem;">Prompt 1</h3>
+        <p style="line-height: 1.7; color: #444;">
+          Every night at midnight, the ancient city of Veylor rearranges itself—streets shift, buildings migrate, entire districts vanish and reappear. Only one person, a young cartographer’s apprentice, can remember the city’s previous layout. When the city begins forming paths that seem to follow them, they realize Veylor is trying to communicate… or warn them of something waking beneath its foundations.
+        </p>
+      </div>
 
-      <a href="nonfiction.html" class="btn">Non-Fiction Prompts</a>
-   </section>
-  
+      <div style="border: 2px solid var(--navy); border-radius: 6px; background: #fff; padding: 1rem 1.25rem;">
+        <h3 style="font-family: 'Merriweather', serif; color: var(--navy); margin-bottom: .5rem;">Prompt 2</h3>
+        <p style="line-height: 1.7; color: #444;">
+          In a kingdom where every major decision is dictated by the infallible Oracle, a young historian discovers a forbidden truth: the Oracle died centuries ago. The prophecies have been forged by a secret council manipulating the world from the shadows. When the historian confronts them, they’re offered a choice—join the deception and reshape the future, or expose the truth and plunge the kingdom into chaos.
+      </div>
 
-  <hr>
+      <div style="border: 2px solid var(--navy); border-radius: 6px; background: #fff; padding: 1rem 1.25rem;">
+        <h3 style="font-family: 'Merriweather', serif; color: var(--navy); margin-bottom: .5rem;">Prompt 3</h3>
+        <p style="line-height: 1.7; color: #444;">
+          Once every decade, the moon turns crimson for a single night, unlocking a hidden realm accessible only through mirrors. A crew of thieves—each with a supernatural flaw—plans the greatest heist in history: stealing a relic that can rewrite a person’s past. But when one member secretly intends to erase the event that broke their family, the team must decide whether loyalty or destiny matters more.
+        </p>
+      </div>
 
-  <!-- WRITING AREA -->
-  <section id="write">
-    <h2>Writing Page</h2>
-    <p style="font-size:.9rem;color:#555;margin-bottom:1.25rem;">Choose a prompt above, then write your response here.</p>
-    <div class="writing-header">
-      <small>Writing Space</small>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis beatae neque pariatur? Eius nemo error repellat accusamus et laboriosam nesciunt, cumque maxime officia minima necessitatibus nulla ipsam, alias fuga fugit?
+      <div style="border: 2px solid var(--navy); border-radius: 6px; background: #fff; padding: 1rem 1.25rem;">
+        <h3 style="font-family: 'Merriweather', serif; color: var(--navy); margin-bottom: .5rem;">Prompt 4</h3>
+        <p style="line-height: 1.7; color: #444;">
+            In a small coastal town, storms whisper warnings to a teenage boy—cryptic messages about danger, betrayal, and a coming disaster no one else believes in. When a hurricane forms unnaturally fast and the whispers turn into desperate screams, he realizes the storm isn’t approaching the town… it’s coming for him. And it knows his name.
+        </p>
+      </div>
     </div>
-    <textarea placeholder="Your story starts here…"></textarea>
   </section>
-
 </div>
 
 <footer>
-  <strong>Jared Niles</strong> &nbsp;·&nbsp; WDD 130 &nbsp;·&nbsp; Writing Prompts
+  <strong>Jared Niles</strong> &nbsp;·&nbsp; WDD 130 &nbsp;·&nbsp; Non-Fiction Prompts
 </footer>
 
 </body>
+</html>
+
 </html>
